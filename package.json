@@ -4,9 +4,6 @@
   "description": "This assignment will help you stand up a web API using Express and the module that you produced for a03.",
   "main": "server.js",
   "type": "module",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
     "test": "node server.js --port=5555"
   },
