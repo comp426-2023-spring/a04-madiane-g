@@ -25,7 +25,7 @@
       "setup": "",
       "run": "cat package.json",
       "input": "",
-      "output": "\"main\": \"server.js\"",
+      "output": "main": "server.js",
       "comparison": "included",
       "timeout": 10,
       "points": 2500
