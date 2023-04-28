@@ -14,6 +14,7 @@
   "author": "madiane-g",
   "license": "GPL-3.0-or-later",
   "dependencies": {
+    "express": "^4.18.2",
     "minimist": "^1.2.8"
   }
 }
