@@ -9,12 +9,15 @@
   },
   "scripts": {
     "test": "node server.js --port=5555",
-    "start": "node server.js"
   },
   "author": "madiane-g",
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "express": "^4.18.2",
     "minimist": "^1.2.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a04-madiane-g.git"
   }
 }
