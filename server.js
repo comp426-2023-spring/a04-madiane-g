@@ -16,6 +16,7 @@ app.get('/app/', (req, res) => {
 })
 
 app.get('/app/rps/', (req, res) => {
+    console.log(rps())
     res.status(200)
     res.send(rps());
 })
