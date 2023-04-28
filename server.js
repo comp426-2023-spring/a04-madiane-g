@@ -34,12 +34,12 @@ app.get('/app/rpsls/play/', (req, res) => {
     res.send(rpsls(req.query.shot))
 })
 
-app.get('/app/rps/play/' + shot, (req, res) => {
+app.get('/app/rps/play/:shot/', (req, res) => {
     res.status(200)
     res.send(rps(shot))
 })
 
-app.get('/app/rpsls/play/' + shot, (req, res) => {
+app.get('/app/rpsls/play/:shot/', (req, res) => {
     res.status(200)
     res.send(rpsls(shot))
 })
