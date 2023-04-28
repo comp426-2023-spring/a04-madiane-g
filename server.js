@@ -51,7 +51,7 @@ app.get("*", (req, res) => {
     res.send("404 NOT FOUND");
 })
 
-console.log(rps())
-console.log(rps("rock"))
-console.log(rpsls())
-console.log(rpsls("rock"))
+// console.log(rps())
+// console.log(rps("rock"))
+// console.log(rpsls())
+// console.log(rpsls("rock"))
