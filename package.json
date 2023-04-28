@@ -8,7 +8,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "node server.js --port=5555",
+    "test": "node server.js --port=5555"
   },
   "author": "madiane-g",
   "license": "GPL-3.0-or-later",
